@@ -68,6 +68,7 @@ class JpatestApplicationTests {
 		Iterable<Userinfo> userByIdAndUsernameAndSex = dao.getUserByIdAndUsernameAndSex(1L, "haha", "male");
 		for(Userinfo user:userByIdAndUsernameAndSex){
 			System.out.println(user.getUsername());
+			System.out.println("aaa");
 		}
 	}
 }
